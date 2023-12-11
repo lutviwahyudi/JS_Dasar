@@ -1,11 +1,26 @@
-var s = ''
-for (var i = 10; i > 0; i--) {
-    for (var j = 0; j < i; j++) {
+// var s = ''
+// for (var i = 10; i > 0; i--) {
+//     for (var j = 0; j < i; j++) {
         
-        s += '*'
+//         s += '*'
         
-    }
-    s += '\n'
+//     }
+//     s += '\n'
     
-}
-console.log(s)
+// }
+// console.log(s)
+
+//rekursif
+
+// function tampilAngka(n) {
+
+//     if (n === 0) {
+//         return;
+//     }
+//     console.log(n)
+//     return tampilAngka(n-1)
+    
+// }
+
+// tampilAngka(20)
+
